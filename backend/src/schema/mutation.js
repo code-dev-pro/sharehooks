@@ -12,7 +12,7 @@ export default new GraphQLObjectType({
       type: GraphQLString,
       args: {
         name: {
-          type: GraphQLString
+          type: GraphQLString,
         },
       },
       resolve: (obj, args) => {

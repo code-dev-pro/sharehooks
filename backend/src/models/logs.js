@@ -23,9 +23,7 @@ const Schema = new mongoose.Schema(
       createdAt: 'createdAt',
       updatedAt: 'updatedAt',
     },
-  },
-);
-
+  });
 
 
 export default mongoose.model('logs', Schema);

@@ -35,7 +35,7 @@ Commands for Backend :
   - `yarn install`
 
 ## Starts the development server.
-   - `yarn run watch`
+   - `yarn watch`
 
 ## Builds the app for production.
   - `yarn build`
@@ -43,6 +43,10 @@ Commands for Backend :
 ## Runs the built app in production mode.
   - `yarn start`
 
+## Runs the linter.
+  - `yarn lint`
+  
+  - `yarn lint-fix`
 
 🚀 Server ready at http://localhost:4000/
 

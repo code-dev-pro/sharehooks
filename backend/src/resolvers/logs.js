@@ -6,5 +6,5 @@ function loadLogs() {
 }
 
 export default {
-  loadLogs
+  loadLogs,
 };

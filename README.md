@@ -10,11 +10,55 @@ Sharehooks is a small web tool for sharing hooks in your react project.
 
 Commands for frontend :
 
+## Install NodeModules
+  - `yarn install`
+
 ## Starts the development server.
-  yarn dev
+  - `yarn dev`
 
 ## Builds the app for production.
-  yarn build
+  - `yarn build`
 
 ## Runs the built app in production mode.
-  yarn start
+  - `yarn start`
+
+
+## BACKEND 
+
+- Apollo-Server 
+- Graphql
+- Mongodb
+
+Commands for Backend :
+
+## Install NodeModules
+  - `yarn install`
+
+## Starts the development server.
+   - `yarn run watch`
+
+## Builds the app for production.
+  - `yarn build`
+
+## Runs the built app in production mode.
+  - `yarn start`
+
+
+🚀 Server ready at http://localhost:4000/
+
+
+#### Test Query
+```js
+ query {
+  testQuery(name: "ShareHooks")
+}
+
+ ```
+ 
+ #### Test Mutation
+```js
+ mutation{
+  testMutation(name:"ShareHooks")
+}
+
+ ```

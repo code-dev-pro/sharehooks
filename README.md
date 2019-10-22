@@ -10,11 +10,11 @@ Sharehooks is a small web tool for sharing hooks in your react project.
 
 Commands for frontend :
 
-# Starts the development server.
+## Starts the development server.
   yarn dev
 
-# Builds the app for production.
+## Builds the app for production.
   yarn build
 
-# Runs the built app in production mode.
+## Runs the built app in production mode.
   yarn start
